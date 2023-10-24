@@ -2,8 +2,9 @@
 home: true
 layout: BlogHome
 icon: home
-title: ScarlettDun
-heroImage: /logo.svg
+title: 我的主页
+bgImage: /images/bg.jpg
+heroImage: /logo.jpg
 heroText: Dundun's Zone
 heroFullScreen: true
 tagline: Welcome to my zone~
