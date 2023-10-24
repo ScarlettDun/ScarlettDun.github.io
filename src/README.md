@@ -2,11 +2,11 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
+title: ScarlettDun
 heroImage: /logo.svg
-heroText: 你博客的名称
+heroText: Dundun's Zone
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: Welcome to my zone~
 projects:
   - icon: project
     name: 项目名称
