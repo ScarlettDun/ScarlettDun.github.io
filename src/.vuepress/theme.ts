@@ -33,7 +33,7 @@ export default hopeTheme({
 
   blog: {
     name: "Mr.Dun",
-    avatar: "logo.jpg",
+    avatar: "/images/头像.jpg",
     description: "一个快乐的小胖子",
     intro: "/intro.html",
     medias: {
