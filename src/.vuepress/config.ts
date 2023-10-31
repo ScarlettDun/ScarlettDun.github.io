@@ -9,6 +9,15 @@ export default defineUserConfig({
   description: "一个隐秘的角落",
 
   theme,
+  head: [
+    [
+      "link", {
+        rel: "shortcut icon",
+        // href: "/favicon.ico",
+        href: "/logo.png",
+      }
+    ]
+  ]
 
 
   
