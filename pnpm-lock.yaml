@@ -15,8 +15,8 @@ devDependencies:
     specifier: 2.0.0-beta.68
     version: 2.0.0-beta.68
   '@waline/client':
-    specifier: 3.0.0-alpha.1
-    version: 3.0.0-alpha.1
+    specifier: ^2.15.8
+    version: 2.15.8
   katex:
     specifier: ^0.16.9
     version: 0.16.9
@@ -26,9 +26,6 @@ devDependencies:
   vuepress:
     specifier: 2.0.0-beta.68
     version: 2.0.0-beta.68(@vuepress/client@2.0.0-beta.68)(vue@3.3.8)
-  vuepress-plugin-comment2:
-    specifier: 2.0.0-beta.251
-    version: 2.0.0-beta.251(@waline/client@3.0.0-alpha.1)(vuepress@2.0.0-beta.68)
   vuepress-plugin-components:
     specifier: 2.0.0-beta.251
     version: 2.0.0-beta.251(vuepress@2.0.0-beta.68)
@@ -37,7 +34,7 @@ devDependencies:
     version: 2.0.0-beta.251(@types/js-yaml@4.0.9)(@vue/repl@2.7.0)(katex@0.16.9)(vuepress@2.0.0-beta.68)
   vuepress-theme-hope:
     specifier: 2.0.0-beta.251
-    version: 2.0.0-beta.251(@types/js-yaml@4.0.9)(@vue/repl@2.7.0)(@waline/client@3.0.0-alpha.1)(katex@0.16.9)(vuepress@2.0.0-beta.68)
+    version: 2.0.0-beta.251(@types/js-yaml@4.0.9)(@vue/repl@2.7.0)(@waline/client@2.15.8)(katex@0.16.9)(vuepress@2.0.0-beta.68)
 
 packages:
 
@@ -2419,14 +2416,13 @@ packages:
       - vue
     dev: true
 
-  /@waline/client@3.0.0-alpha.1:
-    resolution: {integrity: sha512-WaZAI42wJoxLhcY5Kl6gtT9TGg0sC8MT0UkFWCT9heww5fHBFZcD0/DAixGHU5k2tFkbSoY8UHRk1g6ZqORGNw==}
-    engines: {node: '>=18'}
+  /@waline/client@2.15.8:
+    resolution: {integrity: sha512-EBL7RXJUJs742miTvOU0Vt8NEmeJ63EN5TtSsYZfzjUdvEtlv+JsBbS5uiz3C9v5qV7Hz+XDZdc8nc13mG9vNQ==}
+    engines: {node: '>=14'}
     dependencies:
       '@vueuse/core': 10.6.1(vue@3.3.8)
       autosize: 6.0.1
-      marked: 9.1.6
-      marked-highlight: 2.0.7(marked@9.1.6)
+      marked: 4.3.0
       vue: 3.3.8
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -3818,17 +3814,9 @@ packages:
       uc.micro: 1.0.6
     dev: true
 
-  /marked-highlight@2.0.7(marked@9.1.6):
-    resolution: {integrity: sha512-3IjgV879kEihgjWwVv8HGDkyuKDyR8hssDEjMUAH5LNVhIcZge+u6UKhxPA+daEVMVZeKEHo5gWrLVlLPF1m3g==}
-    peerDependencies:
-      marked: '>=4 <11'
-    dependencies:
-      marked: 9.1.6
-    dev: true
-
-  /marked@9.1.6:
-    resolution: {integrity: sha512-jcByLnIFkd5gSXZmjNvS1TlmRhCXZjIzHYlaGkPlLIekG55JDR2Z4va9tZwCiP+/RDERiNhMOFu01xd6O5ct1Q==}
-    engines: {node: '>= 16'}
+  /marked@4.3.0:
+    resolution: {integrity: sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==}
+    engines: {node: '>= 12'}
     hasBin: true
     dev: true
 
@@ -4884,7 +4872,7 @@ packages:
       - typescript
     dev: true
 
-  /vuepress-plugin-comment2@2.0.0-beta.251(@waline/client@3.0.0-alpha.1)(vuepress@2.0.0-beta.68):
+  /vuepress-plugin-comment2@2.0.0-beta.251(@waline/client@2.15.8)(vuepress@2.0.0-beta.68):
     resolution: {integrity: sha512-Zkam8vHOpcDM+Iv6/7u78maLexdhKbQj+Xbb2hKk7STsAOaetUCp4L2oEEw84d19KYNwi8i6XUktVXc+bZJFtA==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -4914,7 +4902,7 @@ packages:
       '@vuepress/client': 2.0.0-beta.68
       '@vuepress/shared': 2.0.0-beta.68
       '@vuepress/utils': 2.0.0-beta.68
-      '@waline/client': 3.0.0-alpha.1
+      '@waline/client': 2.15.8
       giscus: 1.3.0
       vue: 3.3.8
       vue-router: 4.2.5(vue@3.3.8)
@@ -5399,7 +5387,7 @@ packages:
       - typescript
     dev: true
 
-  /vuepress-theme-hope@2.0.0-beta.251(@types/js-yaml@4.0.9)(@vue/repl@2.7.0)(@waline/client@3.0.0-alpha.1)(katex@0.16.9)(vuepress@2.0.0-beta.68):
+  /vuepress-theme-hope@2.0.0-beta.251(@types/js-yaml@4.0.9)(@vue/repl@2.7.0)(@waline/client@2.15.8)(katex@0.16.9)(vuepress@2.0.0-beta.68):
     resolution: {integrity: sha512-xNwV/6Kaqu3wojTiMEr+WOWKA6vhjVrkeOQ0QFbdZqy3fiCRmxFeTuDGly7YG8f+236bVH6a5OSqvU8fMDpQqg==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -5440,7 +5428,7 @@ packages:
       vuepress: 2.0.0-beta.68(@vuepress/client@2.0.0-beta.68)(vue@3.3.8)
       vuepress-plugin-auto-catalog: 2.0.0-beta.251(vuepress@2.0.0-beta.68)
       vuepress-plugin-blog2: 2.0.0-beta.251(vuepress@2.0.0-beta.68)
-      vuepress-plugin-comment2: 2.0.0-beta.251(@waline/client@3.0.0-alpha.1)(vuepress@2.0.0-beta.68)
+      vuepress-plugin-comment2: 2.0.0-beta.251(@waline/client@2.15.8)(vuepress@2.0.0-beta.68)
       vuepress-plugin-components: 2.0.0-beta.251(vuepress@2.0.0-beta.68)
       vuepress-plugin-copy-code2: 2.0.0-beta.251(vuepress@2.0.0-beta.68)
       vuepress-plugin-copyright2: 2.0.0-beta.251(vuepress@2.0.0-beta.68)
