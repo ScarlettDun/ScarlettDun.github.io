@@ -5,7 +5,7 @@ export default navbar([
   "/",
   {
     text: "详细规划",
-    icon: "list",
+    icon: "table",
     children: [
       {text:"年",icon:"",link:"#"},
       {text:"月",icon:"",link:"#"},
@@ -14,14 +14,14 @@ export default navbar([
   },
   {
     text: "学习过程",
-    icon: "exercise",
+    icon: "study",
     children: [
       {text:"Python",icon:"python",link:"#"},
       {text:"Website",icon:"",link:"#"},
-      {text:"Some skill",icon:"",link:"#"},
+      {text:"Some skill",icon:"style",link:"#"},
     ]
   },
-  {
+  { 
     text:"分享经历",
     icon:"blog",
     children: [
@@ -38,7 +38,7 @@ export default navbar([
       {text:"事物看法",icon:"",link:"#"},
       {text:"我的思考",icon:"",link:"#"},
       {text:"一些清单",icon:"",link:"#"},
-      {text:"阅读笔记",icon:"",link:"#"},
+      {text:"阅读笔记",icon:"read",link:"#"},
     ]
   }
 
