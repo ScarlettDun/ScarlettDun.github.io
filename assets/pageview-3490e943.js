@@ -1,0 +1,1 @@
+import{_ as t}from"./app-73115ca1.js";const o=async()=>{try{const{pageviewCount:e}=await t(()=>import("./app-73115ca1.js").then(r=>r.Z),[]);return e({serverURL:"https://comment.scarlettdun.com/"})}catch{console.error("@waline/client is not installed!");return}};export{o as updatePageview};

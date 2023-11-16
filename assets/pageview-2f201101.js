@@ -1,1 +1,0 @@
-import{_ as t}from"./app-31542eff.js";const o=async()=>{try{const{pageviewCount:e}=await t(()=>import("./app-31542eff.js").then(r=>r.Z),[]);return e({serverURL:"https://comment.scarlettdun.com/"})}catch{console.error("@waline/client is not installed!");return}};export{o as updatePageview};
