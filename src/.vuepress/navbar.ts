@@ -36,7 +36,7 @@ export default navbar([
     icon: "storage",
     children: [
       {text:"事物看法",icon:"write",link:"#"},
-      {text:"我的树洞",icon:"home",link:"#"},
+      {text:"我的树洞",icon:"Keyhole",link:"#"},
       {text:"一些清单",icon:"list",link:"#"},
       {text:"阅读笔记",icon:"read",link:"#"},
     ]

@@ -13,7 +13,14 @@ export default hopeTheme({
     url: "https://scarlettdun.com",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  // iconAssets: "fontawesome-with-brands",
+  iconPrefix: "iconfont icon-",
+  // navbarIcon: true,
+  // sidebarIcon: true,
+  iconAssets: [
+    // "/icon/iconfont.css",
+    "//at.alicdn.com/t/c/font_4352225_mc88eq3qse.css",
+  ],
 
   logo: "/images/主页图标20231129.jpg",
 
