@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 我的主页
-bgImage: /images/bg.jpg
+bgImage: /images/网页背景20231129.jpg
 heroImage: /images/主页图标20231129.jpg
 heroText: Dundun's Zone
 heroFullScreen: true
