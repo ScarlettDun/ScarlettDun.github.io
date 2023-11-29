@@ -7,9 +7,9 @@ export default navbar([
     text: "详细规划",
     icon: "table",
     children: [
-      {text:"年",icon:"",link:"#"},
-      {text:"月",icon:"",link:"#"},
-      {text:"日",icon:"",link:"#"},
+      {text:"年",icon:"launch",link:"#"},
+      {text:"月",icon:"light",link:"#"},
+      {text:"日",icon:"leaf",link:"#"},
     ]
   },
   {
@@ -17,7 +17,7 @@ export default navbar([
     icon: "study",
     children: [
       {text:"Python",icon:"python",link:"#"},
-      {text:"Website",icon:"",link:"#"},
+      {text:"Website",icon:"network",link:"#"},
       {text:"Some skill",icon:"style",link:"#"},
     ]
   },
@@ -25,19 +25,19 @@ export default navbar([
     text:"分享经历",
     icon:"blog",
     children: [
-      {text:"学校",icon:"",link:"#"},
-      {text:"工作",icon:"",link:"#"},
-      {text:"日常",icon:"",link:"#"},
-      {text:"旅游",icon:"",link:"#"},
+      {text:"学校",icon:"superscript",link:"#"},
+      {text:"工作",icon:"strong",link:"#"},
+      {text:"日常",icon:"share",link:"#"},
+      {text:"旅游",icon:"sitemap",link:"#"},
     ]
   },
   {
     text: "日常琐碎",
-    icon: "read",
+    icon: "storage",
     children: [
-      {text:"事物看法",icon:"",link:"#"},
-      {text:"我的思考",icon:"",link:"#"},
-      {text:"一些清单",icon:"",link:"#"},
+      {text:"事物看法",icon:"write",link:"#"},
+      {text:"我的树洞",icon:"home",link:"#"},
+      {text:"一些清单",icon:"list",link:"#"},
       {text:"阅读笔记",icon:"read",link:"#"},
     ]
   }

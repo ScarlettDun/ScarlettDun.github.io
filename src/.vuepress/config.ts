@@ -5,7 +5,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "ScarlettDun",
+  title: "Mr.Dun",
   description: "一个隐秘的角落",
 
   theme,
@@ -14,7 +14,7 @@ export default defineUserConfig({
       "link", {
         rel: "shortcut icon",
         // href: "/favicon.ico",
-        href: "/logo.png",
+        href: "/logo.jpg",
       }
     ]
   ]
