@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as e,c as t,b as _}from"./app-whwTFtsc.js";const c={},s=_("p",null,"哈哈哈哈",-1),n=[s];function r(l,a){return e(),t("div",null,n)}const m=o(c,[["render",r],["__file","loooo (copy).html.vue"]]);export{m as default};
