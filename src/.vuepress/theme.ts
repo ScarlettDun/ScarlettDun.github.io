@@ -19,7 +19,8 @@ export default hopeTheme({
   // sidebarIcon: true,
   iconAssets: [
     // "/icon/iconfont.css",
-    "//at.alicdn.com/t/c/font_4352225_mc88eq3qse.css",
+    "//at.alicdn.com/t/c/font_4352225_aole4cf495l.css",
+    
   ],
 
   logo: "/images/主页图标20231129.jpg",
