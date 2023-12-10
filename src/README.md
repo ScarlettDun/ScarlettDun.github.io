@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-icon: nianji
+icon: home1
 title: 我的主页
 bgImage: /images/网页背景20231129.jpg
 heroImage: /images/主页图标20231129.jpg

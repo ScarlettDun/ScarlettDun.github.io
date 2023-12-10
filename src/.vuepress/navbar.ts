@@ -7,9 +7,9 @@ export default navbar([
     text: "详细规划",
     icon: "plan",
     children: [
-      {text:"年",icon:"niandu1",link:"#"},
-      {text:"月",icon:"yue1",link:"#"},
-      {text:"日",icon:"ri",link:"#"},
+      {text:"年",icon:"bennian",link:"#"},
+      {text:"月",icon:"benyue",link:"#"},
+      {text:"日",icon:"riqi",link:"#"},
     ]
   },
   {
