@@ -5,8 +5,8 @@ date: 2023-12-04 10:25:32
 author: Mr.Dun
 isOriginal: true
 category: 
-    - 2023.12.04上课笔记
-    - 文章的编写
+    - 上课笔记
+    - 文章编写
 tag:
     - 学习
     - 网站
